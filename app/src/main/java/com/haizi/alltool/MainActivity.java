@@ -1,9 +1,9 @@
 package com.haizi.alltool;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import com.haizi.alltool.base.BaseAvtivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseAvtivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
