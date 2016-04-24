@@ -3,11 +3,11 @@ package com.haizi.alltool;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 
-import com.haizi.alltool.base.BaseAvtivity;
+import com.haizi.alltool.base.BaseActivity;
 
 import butterknife.Bind;
 
-public class MainActivity extends BaseAvtivity {
+public class MainActivity extends BaseActivity {
 
     @Bind(R.id.rv_function_list)
     RecyclerView rvFunctionList;

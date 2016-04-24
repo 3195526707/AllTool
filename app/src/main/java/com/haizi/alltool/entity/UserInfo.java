@@ -3,7 +3,7 @@ package com.haizi.alltool.entity;
 /**
  * Created by Administrator on 2016/4/24.
  */
-public class User {
+public class UserInfo {
 
     private String name;
 

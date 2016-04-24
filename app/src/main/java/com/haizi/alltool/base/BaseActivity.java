@@ -12,7 +12,9 @@ import butterknife.ButterKnife;
 /**
  * Created by Administrator on 2016/4/24.
  */
-public class BaseAvtivity extends FragmentActivity {
+public class BaseActivity extends FragmentActivity {
+
+    private static BaseActivity frontActivity;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -36,5 +38,15 @@ public class BaseAvtivity extends FragmentActivity {
     public void setContentView(View view, ViewGroup.LayoutParams params) {
         super.setContentView(view, params);
         ButterKnife.bind(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        frontActivity = this;
+    }
+
+    public static BaseActivity getForegroundActivity() {
+        return frontActivity;
     }
 }

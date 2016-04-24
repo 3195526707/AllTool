@@ -2,7 +2,7 @@ package com.haizi.alltool.test;
 
 import android.test.InstrumentationTestCase;
 
-import com.haizi.alltool.entity.User;
+import com.haizi.alltool.entity.UserInfo;
 
 /**
  * Created by Administrator on 2016/4/24.
@@ -10,15 +10,15 @@ import com.haizi.alltool.entity.User;
 public class ExampleTest extends InstrumentationTestCase {
 
     public void test() {
-        User user = new User();
-        user.setName("aaaa");
-        System.out.println(user.getName().toString());
+        UserInfo userInfo = new UserInfo();
+        userInfo.setName("aaaa");
+        System.out.println(userInfo.getName().toString());
     }
 
     public void test2() {
-        User user = new User();
-        user.setName("aaaaaa");
-        System.out.println(user.getName().toString());
+        UserInfo userInfo = new UserInfo();
+        userInfo.setName("aaaaaa");
+        System.out.println(userInfo.getName().toString());
     }
 
 }
