@@ -1,8 +1,8 @@
 <resources>
 
     <style name="BaseTheme" parent="android:Theme.Black.NoTitleBar">
-        <item name="windowBackground">@color/white</item>
-        <item name="colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
     </style>
 
 </resources>
