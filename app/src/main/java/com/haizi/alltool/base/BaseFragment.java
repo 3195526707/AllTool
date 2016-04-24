@@ -27,8 +27,8 @@ public class BaseFragment extends Fragment {
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
-    public View inflate(ViewGroup container) {
-        View view = inflater.inflate(R.layout.activity_main, container, false);
+    public View inflate(int id, ViewGroup container) {
+        View view = inflater.inflate(id, container, false);
         ButterKnife.bind(this, view);
         return view;
     }
